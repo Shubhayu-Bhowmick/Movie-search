@@ -1,0 +1,94 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Hammersmith One', sans-serif;  
+    background: rgb(48, 48, 48);
+   
+}
+.everything{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    padding: 0%;
+    margin: 0;
+}
+#poster{
+    width: 99px;
+    height: 147.41px;
+    border-radius: 2.32941px;
+}
+p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+}
+form{
+    margin-top: -15px;
+}
+#title{
+    margin: 0;
+    margin-top: -10px;
+    display: inline-block;
+}
+#rating{
+    margin-top: -5px;
+}
+#search-box{
+    width: 342px;
+    height: 32px;
+    margin: 0;
+    border-radius: 6px 0px 0px 6px;
+}
+#search-button{
+    width: 120px;
+    height: 38px;
+    margin-left: -6px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+/** layout */
+.header{
+    width: 550px;
+    height: 208px;
+    background-color: rgb(93, 93, 93);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.045em;
+    
+}
+.container{
+    width: 550px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin-top: 30px;
+    display: flex;
+    width: 462px;
+    color: aliceblue;
+    border-bottom: 1px solid red;
+    background-color: black;
+}
+.info{
+    padding: 15px;
+}
+.first{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+ }
+ .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: -20px;
+    font-size: 12px;
+ }
